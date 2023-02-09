@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Homepage</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h1>About</h1>
+        <p>Welcome to my homepage!</p>
+      </section>
+      <section id="services">
+        <h1>Services</h1>
+        <p>I offer the following services:</p>
+        <ul>
+          <li>Web design</li>
+          <li>Graphic design</li>
+          <li>Digital marketing</li>
+        </ul>
+      </section>
+      <section id="contact">
+        <h1>Contact</h1>
+        <form action="submit-form.php" method="post">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </div>
+          <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email">
+          </div>
+          <div>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2022 My Homepage</p>
+    </footer>
+  </body>
+</html>
